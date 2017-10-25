@@ -21,7 +21,7 @@ for i in range(0,lenth):
     bpy.context.scene.objects.active = selobj
     bpy.ops.object.mode_set(mode = 'EDIT')
     bpy.ops.mesh.select_all(action = 'SELECT')
-    bpy.ops.uv.smart_project(stretch_to_bounds=False)
+    bpy.ops.uv.smart_project(island_margin=0.04, stretch_to_bounds=False)
     bpy.ops.uv.pack_islands(margin=0.001)
     bpy.ops.mesh.select_all(action = 'DESELECT')
     bpy.ops.object.mode_set(mode = 'OBJECT')
