@@ -25,7 +25,7 @@ keyconfig_data = \
     ("view3d.localview_remove_from", {"type": 'NUMPAD_SLASH', "value": 'PRESS', "alt": True}, None),
     ("view3d.localview_remove_from", {"type": 'SLASH', "value": 'PRESS', "alt": True}, None),
     ("view3d.rotate", {"type": 'MOUSEROTATE', "value": 'ANY'}, None),
-    ("view3d.rotate", {"type": 'MIDDLEMOUSE', "value": 'CLICK_DRAG', "alt": True}, None),
+    ("view3d.rotate", {"type": 'LEFTMOUSE', "value": 'ANY', "alt": True}, None),
     ("view3d.move", {"type": 'MIDDLEMOUSE', "value": 'ANY', "alt": True}, None),
     ("view3d.rotate", {"type": 'TRACKPADPAN', "value": 'ANY'}, None),
     ("view3d.move", {"type": 'TRACKPADPAN', "value": 'ANY', "shift": True}, None),
